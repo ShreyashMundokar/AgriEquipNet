@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgriEquipNet</title>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/sty.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+
+
+</head>
+
+<header class="header">
+    <a href="#" class="logo"><img src="logo2.png"></a>
+
+
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#equipments">Equipments</a>
+
+        <a href="#review">Review</a>
+        <a href="#contactus">Contact Us</a>
+
+
+    </nav>
+    <div class="icons">
+        <div class="fa fa-bars" id="menu-btn"> </div>
+        <div class="fa fa-search" id="search-btn"> </div>
+
+        <div class="fa fa-user" id="login-btn" > </div>
+    </div>
+
+    <form class="search-form">
+        <input type="search" id="search-box" Placeholder="Search Here...">
+        <label for="search-box" class="fa fa-search"></label>
+    </form>
+
+
+    <form action="#" class="login-form">
+        <h3>Login Now </h3>
+        <input type="email" placeholder="enter your email" class="box">
+        <input type="password" placeholder="enter your password" class="box">
+
+        <p>Forget Your Password<a href="#">Click Here</a></p>
+        <p>Don't Have An Account? <a href="#">Create Now</a></p>
+
+        <input type="submit" value="Login" class="btn">
+
+    </form>
+
+</header>
+
+<body>
+
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Start Your Journey with us </h3>
+            <p> Maximize your Yeild with State-of-the-Art-Farming Tools and Machinery.<br>Your Trusted source for High-Quality Farming Tools.
+            </p>
+            <a href="onkar.html" class="btn"><pre>Buy Now</pre></a>
+
+        </div>
+    </section>
+
+    <section class="services" id="services">
+
+        <h3 class="heading"> Our <span>Services</span></h3>
+
+        <div class="box-container">
+            <div class="box"><img src="https://media.istockphoto.com/id/1266252971/vector/online-shop-logo-design.jpg?s=170667a&w=0&k=20&c=gmwP1JwAbt4bNv0PwTKDNqKbL3AcV8L5dMEXef67utY=" alt="image" width="250" height="250">
+                
+                <a href="shreyash.html" ><pre>BUY</pre></a>
+                <p>You can buy products from the Equipments Section</p>
+            </div>
+
+
+            <div class="box"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAe1BMVEXy8vIKCgoAAAD///8rKyv6+vr09PT39/fw8PBJSUkjIyN5eXmlpaUICAjCwsL8/Pzm5uZmZmacnJxVVVXPz88kJCSLi4taWlq0tLTg4OCXl5ceHh49PT3c3NwQEBAYGBhubm5BQUEyMjKDg4PIyMi3t7ejo6NgYGCQkJDb0jMkAAAEYUlEQVR4nO3ca3eiOhQG4LgxO7FeYNR6R6mtM/7/X3h2QG4Sph9mWYXzPp3VOqR08TaSZAMzSgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAfy4f7k/+VlXWfOGC27Tsxt7a9GlYmDI3RN/IiNJKPN+dlmps5S1P9nO3oDcnZ97f/bn5euN0N3/YVb+sN69k6GWkT+bid+Pba3oUs9nidLmZ9pabDeD5JmIOTp41iOXg9yF7Pdf3HBYdse2JeJ+GKpoMGOiZXOfZgSJ62rZye+i1toYmp/TQbjLLt4+BJeRo49mSQIzzPQm5NKPvp928Shs/J06RXZQZ5c2UvjvQ5ITmTuK0PVVsfqtdLGP4qMtB+k8Ulmo2JvowqEtbPw84lTE/D6YBGVgdfJGnGm5N8mZUJp4dFxSgdafzv0hdOOKDEsgkmq9N58+k2VRPSPAgr3BTavYS008rukvF4dTmmW+oJ9f0E3rmEMrozz+UNGuvoFrmW0NyWKulyxc103Uu40spMyA2g9kjNhPp+v86NNC6h4i8ZJW0PEw6yhJytpPvYh+kRLewtRF8TykJ0btIYbMk3lt7v16GEY8qXbKdNWgjzNiE6fjtbdCah2ZSrNjrIctuyNcuzrM3uZnxdMC5tdxKy+SgiTokWsZQURunZvpZwMa6YuVDdSSjF+qFSP8icH7l5w/BuJiOrd+X9u2sJXQ1cFsHSjzvlrkBp1+KrnrJQ3VnTyFnHOhpTmWRK+0uYHjd7K+A0lO1MHzJrK32l44UbP8shZ5ldZmlPaDqTUO/c2CLvx+Ww0o+UruJU+3nYnYQq/EMrZWQCMMFlX7kmRRtTvkvpc1kRpbVFdxL+SnvFHWfoyqci4UkZW86HIVeqJ6c7I41btR3p/CVDp9T4lSGHtor7sWpz1ZNMEdds9NTxOl/F9WZdWqkPhZyPs6mnxu9PQtXvGj/F0bF4l6peJSyPqOzDXiX80MHNknrZh1LjD2/8Y2ljPiwS1lvKe098v8uTE5YLs8F3Cbm+pqk3vGTCgVct4S69IpzfwI5smfB3fq3YfZGGIqEuriEre3+j+GcTJm0Jl2XCY/3e0zAo7pDW1+RXnd8/rG8fNU7jH6SvbQmjlgpYRiWpRvKEtQYZkPKE8mspt6+fOezw1pvwSEnQUgEP6FDpw3rCsOjDwfRVErq7Fc37+FMapk9ctPRha8JqH1a2PzehMpe35uMWf6K8xvdI+3DvaZin52HTkxMqzZfdx7D0nsxjnT0dZA7DpvdFaK2vZS9Dbrh4b+6wNt8exEOxMjoMKkJ9m8HY6sDHulPUwz0JFXq2P3MoVbcklQfYrCuh8gbvY13uu30N7pqWZ/tfHo4DAAAAAAAAAAAAAAD4Jy/zT5gfxTz3wYOHY95Q3PNuNNf4yTc8H4z1Ne53Fyq96nkfKjPZ9rwP1ev8jxeP8z+ICAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQZ/8BXBhGifAv31MAAAAASUVORK5CYII="
+                    alt="image" width="250" height="250">
+                
+                <a href="shreyash 2.html" ><pre>SELL</pre></a>
+                <p>You can Sell your products here.</p>
+            </div>
+
+        </div>
+    </section>
+    <section class="equipments" id="equipments">
+
+        <h3 class="heading"> Equipments</h3>
+        <div class="swiper equipment-slider">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+
+
+                    <img src="https://www.shaktimanagro.com/wp-content/uploads/2020/07/Reversible-MB-Plough-2-Board-800x500.jpg" alt="mbplough" width="250" height="250">
+                    <h2>MB Plough</h2>
+                    <p>USE:It cuts trash and buries it completely. It is also used for turning green manure crop for decaying under the soil, which adds humus to the soil.
+
+
+                    </p><br>
+                    <br>
+                    <div class="price">Rs.16,870/--24,999/-</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+
+                    <a href="#" class="btn">Buy</a>
+
+
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-7rR0DNUFSRsSXwbHnnvN03Ewypp8T8ouB7ZSLLBqa7XqjVt2PyHgQOJ4MpZdPGMZzTdKHnXN41g&usqp=CAU&ec=48600113.jpg" alt="Wheat Thresher" width="250" height="250">
+                    <h2>Wheat Thresher</h2>
+                    <p>USE:Thresher is productive farm equipment that threshes grain and removes the seeds from the stalks and husks. The farm machine used to separate the wheat, maize, soybean, peans and other small grains and seed crops from their chaff
+                        and straw.</p><br>
+
+                    <div class="price">Rs.1,99,999--2,99,999</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">Buy</a>
+
+
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://www.indiaagrovision.com/uploads/categories/cultivator-1218675023.jpg" alt="mbplough" width="250" height="250">
+                    <h2>Cultivators</h2>
+                    <p>USE: It helps farmers to uproot weeds and mix crop residue, manure and fertilizers with the soil. It's really helpful to farmers as it can be also used after sowing the crops to stir up the soil near them, hence helping the crops to
+                        get the proper temperature and a healthy environment to grow</p>
+                    <div class="price">Rs.50,999/--59,999/-</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">Buy</a>
+
+
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="https://www.indiaagrovision.com/uploads/categories/sub-soiler-166886080.jpg" alt="mbplough" width="250" height="250">
+                    <h2>Sub Soilers</h2>
+                    <p>USE:A subsoiler or flat lifter is a tractor-mounted farm implement used for deep tillage, loosening and breaking up soil at depths below the levels worked by moldboard ploughs, disc harrows, or rototillers.</p><br>
+
+
+                    <div class="price">Rs.25,999/--30,999/-</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">Buy</a>
+
+
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="https://www.fieldking.com/images/tillage/plough/lg/mounted-disc-plough.png" alt="mbplough" width="250" height="250">
+                    <h2>Mounted Disc Plough</h2>
+                    <p>USE:Disc plough is used for primary tillage and is especially useful in hard and dry, trashy, stony or stumpy land conditions and in soil where scouring is a major problem.</p>
+                    <br>
+                    <br>
+                    <div class="price">Rs.55,999/--60,999/-</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">Buy</a>
+
+
+                </div>
+
+
+                <div class="swiper-slide box">
+                    <img src="https://www.indiaagrovision.com/uploads/categories/seed-drill-487401269.jpg" alt="mbplough" width="250" height="250">
+                    <h2>Seed Drill/Planters</h2>
+                    <p>USE:Seed drills help improve crop yield ratio by as much as nine times, saving time and labour. The seed drill machine is used to carry seeds and open furrows to a uniform depth.</p>
+                    <br>
+                    <br>
+                    <div class="price">Rs.35,999/--40,999/-</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">Buy</a>
+
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="review" id="review">
+        <h2 class="heading">Customer's Review</h2>
+
+        <div class=" swiper review-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="imgforwebsite/revv3.jpg" alt="image">
+                    <p> I highly recommend this agricultural product website to anyone looking for agricultural equipments and excellent customer service. I'll definitely be a repeat customer!" </p>
+                    <h3>Rajesh Patil</h3>
+
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide box">
+                    <img src="imgforwebsite/revv1.jpg" alt="image">
+                    <p> I also found the informative articles and guides very helpful in expanding my knowledge. </p>
+                    <h3>Shreyash Mundokar</h3>
+
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                </div>
+
+
+
+                <div class="swiper-slide box">
+                    <img src="imgforwebsite/revv4.webp" alt="image">
+                    <p>I appreciate the user-friendly interface of the website, making it easy to browse and place my order. I also found the informative articles and guides very helpful in expanding my knowledge. </p>
+                    <h3>Anurag Patil</h3>
+
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                </div>
+
+
+
+                
+
+
+                <div class="swiper-slide box">
+                    <img src="imgforwebsite/revv2.jpg" alt="image">
+                    <p>I recently purchased an equipment from AgriEquipNet, and I am happier with the quality of their products.</p>
+                    <h3>Onkar Kapse</h3>
+
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="contactus" id="contactus">
+        <h2 class="heading">Contact Us</h2>
+        <div class="box-container">
+            <div class="box">
+                <h3>Address </h3><span>Dharampeth , Nagpur , 442001</span>
+                <h3>Mobile </h3>+91 1234567890
+                <h3>Email </h3>agriequipnet@gmail.com
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="credit">Created By <span>SSRO </span>| All Rights Reserved</div>
+    
+    
+    </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js/script.js "></script>
+
+</body>
+
+</html>
